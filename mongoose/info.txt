@@ -1,0 +1,8 @@
+mongoose --> node js ko mongo db se connect krne ke liye ye ek npm package hai
+advance chize deti h 
+models, schemas
+
+
+1.schema bna ke hum rok skte hai ki koi aur column add na kr paye mongodb me . to ye hum mongoose use kr ke kr skte hai
+2. type of data ko control kr skte hai, suppose hume chahiye ki name string ho to hummongoose se coontrolkr skte hai
+validations la skte h

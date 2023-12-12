@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile Page</title>
+
+</head>
+<body>
+    <%- include('common/header'); %>
+    <h1>Welcome <%= obj1.name%></h1>
+    <h1>How are you today <%= obj1.name%></h1>
+    <h1>Your email is <%= obj1.email%></h1>
+    <h1>and your contact number is <%= obj1.contactNo%></h1>
+    <ul>
+        <% obj1.skills.forEach((item)=>{ %>
+            <li> <%=item %></li>
+
+        <% }) %>
+    </ul>
+
+    
+</body>
+</html>
